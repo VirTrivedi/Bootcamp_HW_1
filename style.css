@@ -1,0 +1,45 @@
+body {
+    background-color: #0C0C0C;
+    margin: 5px;
+}
+
+.mainTitle {
+    color: #B7E0FF;
+    font-size: 5rem;
+    display: table;
+    margin: auto;
+}
+
+.title {
+    color: #B7E0FF;
+    font-size: 2rem;
+    display: table;
+    margin: auto;
+}
+
+p {
+    color: #FFFFFF;
+    display: table;
+    margin: auto;
+    font-size: larger;
+}
+
+a {
+    color: #7CF5FF;
+    display: table;
+    margin: auto;
+    font-size: larger;
+}
+
+li {
+    color: #FFFFFF;
+    font-size: larger;
+}
+
+#headshot {
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: #B7E0FF;
+}
