@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <header>
         <h1 class = "mainTitle">Vir Trivedi's Website</h1>
         <hr>
-    </div>
+    </header>
 
-    <div>
+    <section>
         <h2 class = "title">Welcome!</h2>
         <p>Welcome to my website! My name is Vir and I am a freshman CS student at the University of Maryland - College Park. I hope you enjoy my first website!</p>
-        <a href="https://www.linkedin.com/in/vir-trivedi-7232a02a9/">LinkedIn</a>
-        <a href="https://github.com/VirTrivedi">github</a>
+        <nav>
+            <a href="https://www.linkedin.com/in/vir-trivedi-7232a02a9/">LinkedIn</a> ||
+            <a href="https://github.com/VirTrivedi">github</a> ||
+            <a href="mailto:vtrived1@terpmail.umd.edu">vtrived1@terpmail.umd.edu</a>
+        </nav>
         <hr>
         <img id="headshot" src="IMG_3020_Original.jpg" alt="My graduation headshot photo">
         <hr>
-    </div>
+    </section>
 
-    <div>
+    <section>
         <h2 class = "title">About Me</h2>
         <ul>
             <li>Freshman Computer Science student at the University of Maryland - College Park graduating in May 2027</li>
@@ -31,11 +34,11 @@
             <li>Member of the UMD club tennis team</li>
         </ul>
         <hr>
-    </div>
+    </section>
 
-    <div>
+    <section>
         <h2 class = "title">Experience</h2>
-        <ol>
+        <ol type="I">
             <li><b>Community Assistant</b></li>
             <ul>
                 <li>University of Maryland - College Park Department of Resident Life</li>
@@ -63,9 +66,9 @@
             </ul>
         </ol>
         <hr>
-    </div>
+    </section>
 
-    <div>
+    <section>
         <h2 class = "title">Education</h2>
         <ul>
             <li><b>University of Maryland - College Park</b></li>
@@ -83,30 +86,44 @@
             </ul>
         </ul>
         <hr>
-    </div>
+    </section>
 
-    <div>
+    <section>
         <h2 class="title">Favorites</h2>
-        <ul>
-            <li><b>Ice Cream Flavors:</b></li>
-            <ol>
-                <li>Mint chocolate chip</li>
-                <li>Mango</li>
-                <li>Strawberry</li>
-            </ol>
-            <li><b>Sports:</b></li>
-            <ol>
-                <li>Tennis</li>
-                <li>Soccer</li>
-                <li>Cricket</li>
-            </ol>
-            <li><b>Classes (so far):</b></li>
-            <ol>
-                <li>Macro Economics</li>
-                <li>Anthropology</li>
-                <li>Philosophy</li>
-            </ol>
-        </ul>
-    </div>
+        <table style="width: 50%;">
+            <tr>
+                <th style="width: 33%">Ice Cream Flavors</th>
+                <th style="width: 33%">Sports</th>
+                <th style="width: 33%">Classes so far</th>
+            </tr>
+            <tr>
+                <td>Mint chocolate chip</td>
+                <td>Tennis</td>
+                <td>Macro Economics</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+                <td>Soccer</td>
+                <td>Anthropology</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td>Cricket</td>
+                <td>Philosophy</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="title">Rate My Website</h2>
+        <p>Thank you for taking the time to explore my website. Please leave me any feedback you have in the form below. Thank you!</p>
+        <iframe src="https://forms.gle/kFkosoNaaqWXSVHU7" style="border: none;" title="Form to rate my website"></iframe>
+    </section>
+
+    <footer>
+        <p>Author: Vir Trivedi</p>
+        <a href="#top">Back to top</a>
+    </footer>
 </body>
 </html>
