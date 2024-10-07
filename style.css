@@ -28,11 +28,11 @@ a {
     color: #7CF5FF;
     display: table;
     margin: auto;
-    font-size: larger;
+    font-size: large;
 }
 
-nav {
-    margin-top: 5px;
+.links {
+    border: none;
 }
 
 li {
