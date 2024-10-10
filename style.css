@@ -73,3 +73,11 @@ iframe {
 footer {
     margin-top: 50px;
 }
+
+.Screenshots {
+    display: flex;
+    max-width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
